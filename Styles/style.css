@@ -1,0 +1,169 @@
+html
+{
+	
+}
+
+
+body 
+{
+	
+	background-image: linear-gradient(#282828, black);
+		
+}
+
+h1::before
+{
+	content: "\269E";
+	color: #f7882e;
+}
+
+h1::after
+{	content: "\269F";
+	color: #f7882e;
+	}
+
+h1 {
+	margin-top:0px;
+	background-color:#181719;
+	color:white;
+	padding:1em;
+	border-bottom: #f7882e solid 10px;
+	text-align:center;
+	font-family:sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	outline: #f7882e solid 3px;
+	outline-offset: -30px;
+	
+		}
+	
+h2 
+{
+	font-size: 1.5em;
+	font-weight:100;
+	font-style:italic;
+	padding: 0.5em;
+	padding-right:6em;
+	padding-left:6em;
+	color:white;
+	background-color: #3e3b42;
+	text-align:center;
+	position: relative;
+	bottom: 31px;
+
+	}
+
+article 
+{
+		max-width: 850px;
+		background-color:#f2f3f7;
+		padding-top:3em;
+		padding-right:2em;
+		padding-left:2em;
+		padding-bottom: 3em;
+		border: #f2f3f7 solid 1px;
+		border-radius: 20px 20px 20px 20px;
+		margin-left:500px;
+		margin-right:20px;
+		
+}	
+
+
+em 
+{
+	font-style:normal;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size: 0.9em;
+	text-transform:uppercase;
+	color: white;
+	background-color:#3e3b42;
+	padding: 5px;
+	border-left: #f7882e 5px solid;
+	padding-right: 20px;
+	box-shadow: 5px 5px 0px -2px #bbbec8;
+}	
+	
+	
+
+p { 
+	max-width: 750px;
+	font-family:sans-serif;
+	padding:0.5em;
+	
+}
+
+
+
+ul {
+	list-style: none;
+	background-color:#3e3b42;
+	border-left: 5px #c25edb solid;
+	border-radius: 2px 50px 50px 2px;
+	margin-bottom: 2em;
+	padding:1em;
+	padding-left: 2em;
+	max-width: 250px;
+	box-shadow: 5px 5px 0px -2px #bbbec8;
+	font-weight: 200;
+	font-size:1.2em;
+	font-family:sans-serif;
+	
+	}
+
+ul li::before{
+	content: "\2023";
+	color: #f7882e;
+	font-weight:bold;
+	display:inline-block;
+	width: 1em;
+	margin-left:-1em;
+}
+		
+li {
+	margin-bottom:5px;
+	color: white;
+	line-height:200%;
+	}
+
+
+h3 
+{
+	margin-top: 20px;
+	max-width: 250px;
+	border-left: 5px #f7882e solid;
+	background-color: #3e3b42;
+	padding:1em;
+	box-shadow: 5px 5px 0px -2px #bbbec8;
+	font-family:sans-serif;
+	font-style: bold;
+	color: white;
+}	
+	
+	
+h4::before
+{
+	content: "\2600";
+	color: white;
+	font-weight:bold;
+	font-size: 1em;
+	padding-right:10px;
+	
+}
+	
+	
+	
+h4 
+{ 
+	font-family:sans-serif;
+	color: white;
+	background-image: linear-gradient(to right, #c25edb, #f7882e);
+	padding: .5em;
+	margin-top: 1em;
+	max-width: 700px;
+	border-left: 5px #3e3b42 solid;
+	border-radius: 2px 10px 10px 2px;
+	box-shadow: 5px 5px 0px -1px #bbbec8
+
+}
+
